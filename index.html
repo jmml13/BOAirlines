@@ -3,16 +3,6 @@
 <html>
 
 <head>
-    <script>
-        /*
-                const setLanguage = (language) => {
-                    language ??= localStorage.language || "es";
-                    localStorage.language = language;
-                };
-                setLanguage();
-                */
-    </script>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -38,7 +28,6 @@
 </head>
 
 <body>
-    <p data-i18n="head_subtitle"></p>
     <header class="header-area">
         <!-- Header Top -->
         <div class="container">
@@ -59,43 +48,32 @@
                                     <div class="justify-content-between">
                                         <ul class="listing" id="navigation">
                                             <li class="single-list">
-                                                <a lang="es" href="#travel" class="single">Cómo llegar</a>
-                                                <a lang="de" href="#travel" class="single">Ankommen</a>
+                                                <a data-i18n="menu_1" href="#travel" class="single"></a>
                                             </li>
                                             <li class="single-list">
-                                                <a lang="es" href="#hotel" class="single">Dónde alojarse</a>
-                                                <a lang="de" href="#hotel" class="single">Übernachtung</a>
+                                                <a data-i18n="menu_2" href="#hotel" class="single"></a>
                                             </li>
                                             <li class="single-list">
-                                                <a lang="es" href="#parking" class="single">Dónde aparcar</a>
-                                                <a lang="de" href="#parking" class="single">Parken</a>
+                                                <a data-i18n="menu_3" href="#parking" class="single"></a>
                                             </li>
                                             <li class="single-list">
-                                                <a lang="es" href="javascript:void(0)" class="single">Consejos<i
-                                                        class="ri-arrow-down-s-line"></i></a>
-                                                <a lang="de" href="javascript:void(0)" class="single">Tipps<i
+                                                <a data-i18n="menu_4" href="javascript:void(0)" class="single"><i
                                                         class="ri-arrow-down-s-line"></i></a>
                                                 <ul class="submenu">
                                                     <li class="single-list">
-                                                        <a lang="es" href="#general" class="single">General</a>
-                                                        <a lang="de" href="#general" class="single">Allgemein</a>
+                                                        <a data-i18n="menu_4_1" href="#general" class="single"></a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a lang="es" href="#langu" class="single">Idioma</a>
-                                                        <a lang="de" href="#langu" class="single">Sprache</a>
+                                                        <a data-i18n="menu_4_2" href="#langu" class="single"></a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a lang="es" href="#transport" class="single">Transporte</a>
-                                                        <a lang="de" href="#transport" class="single">Reisen</a>
+                                                        <a data-i18n="menu_4_3" href="#transport" class="single"></a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a lang="es" href="#eatdrink" class="single">Comidas y bebidas
-                                                            típicas</a>
-                                                        <a lang="de" href="#eatdrink" class="single">Essen und
-                                                            Trinken</a>
+                                                        <a data-i18n="menu_4_4" href="#eatdrink" class="single"></a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a href="#passau" class="single">Passau</a>
+                                                        <a data-i18n="menu_4_5" href="#passau" class="single">Passau</a>
                                                     </li>
                                                 </ul>
                                             </li>
