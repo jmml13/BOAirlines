@@ -23,7 +23,7 @@
 
 // Function to fetch language data
 async function fetchLanguageData(lang) {
-	var fileName = `./${lang}.json`;
+	var fileName = `languages/${lang}.json`;
 	const response = await fetch(fileName);
 	return response.json();
 }
