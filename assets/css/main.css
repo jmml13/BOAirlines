@@ -14120,7 +14120,7 @@ object {
 
 @media (max-width: 991px) {
   .header-title {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
@@ -14132,7 +14132,7 @@ object {
 
 @media (max-width: 991px) {
   .header-subtitle {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
@@ -14480,7 +14480,7 @@ object {
 
 @media (max-width: 991px) {
   .section-title .title {
-    font-size: 26px;
+    font-size: 30px;
   }
 }
 
@@ -14494,13 +14494,13 @@ object {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-tittle .sub-tittle {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-tittle .sub-tittle {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -16961,7 +16961,7 @@ input[type=number] {
 
 @media (max-width: 991px) {
   .text-area .paragraph {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
