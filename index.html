@@ -18,13 +18,11 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-5.3.0.min.css" />
     <!-- Icons CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
     <!-- Plugin CSS Mobile-menu-->
     <link rel="stylesheet" type="text/css" href="./assets/css/plugin.css" />
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
-    <!--<link rel="stylesheet" type="text/css" href="../Multipurpose travel and tour booking_files/main-style.css">-->
 </head>
 
 <body>
@@ -37,8 +35,9 @@
                         <!--<div class="logo">
                                     <img src="./images/logo.tiff" width="350" height="200" alt="logo">
                                 </div>-->
-                        <div data-i18n="head_title" class="header-title fancy-font" >Bretzel & Oliva Airlines</div>
-                        <div data-i18n="head_subtitle" class="header-subtitle fancy-font" ></div>
+                        <div data-i18n="head_title" class="header-title fancy-font">Bretzel & Oliva Airlines</div>
+                        <div data-i18n="head_subtitle" class="header-subtitle fancy-font">La aerolínea del "Sí, quiero"
+                        </div>
                     </div>
                     <div class="col-lg-6">
                         <!-- Main-menu for desktop -->
@@ -48,32 +47,36 @@
                                     <div class="justify-content-between">
                                         <ul class="listing" id="navigation">
                                             <li class="single-list">
-                                                <a data-i18n="menu_1" href="#travel" class="single"></a>
+                                                <a data-i18n="menu_1" href="#travel" class="single">Cómo llegar</a>
                                             </li>
                                             <li class="single-list">
-                                                <a data-i18n="menu_2" href="#hotel" class="single"></a>
+                                                <a data-i18n="menu_2" href="#hotel" class="single">Dónde alojarse</a>
                                             </li>
                                             <li class="single-list">
-                                                <a data-i18n="menu_3" href="#parking" class="single"></a>
+                                                <a data-i18n="menu_3" href="#parking" class="single">Dónde aparcar</a>
                                             </li>
                                             <li class="single-list">
-                                                <a data-i18n="menu_4" href="javascript:void(0)" class="single"><i
-                                                        class="ri-arrow-down-s-line"></i></a>
+                                                <a data-i18n="menu_4" href="javascript:void(0)"
+                                                    class="single">Consejos<i class="ri-arrow-down-s-line"></i></a>
                                                 <ul class="submenu">
                                                     <li class="single-list">
-                                                        <a data-i18n="menu_4_1" href="#general" class="single"></a>
+                                                        <a data-i18n="menu_4_1" href="#general"
+                                                            class="single">General</a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a data-i18n="menu_4_2" href="#langu" class="single"></a>
+                                                        <a data-i18n="menu_4_2" href="#langu" class="single">Idioma</a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a data-i18n="menu_4_3" href="#transport" class="single"></a>
+                                                        <a data-i18n="menu_4_3" href="#transport"
+                                                            class="single">Transporte</a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a data-i18n="menu_4_4" href="#eatdrink" class="single"></a>
+                                                        <a data-i18n="menu_4_4" href="#eatdrink" class="single">Comidas
+                                                            y bebidas
+                                                            típicas</a>
                                                     </li>
                                                     <li class="single-list">
-                                                        <a data-i18n="menu_4_5" href="#passau" class="single"></a>
+                                                        <a data-i18n="menu_4_5" href="#passau" class="single">Passau</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -106,10 +109,10 @@
                 <div class="row align-items-center justify-content-between g-4">
                     <div class="col-xl-4">
                         <div class="hero-caption-three position-relative z-3">
-                            <h4 class="title wow fadeInUp" data-wow-delay="0.0s">
+                            <h4 data-i18n="hero_title" class="title wow fadeInUp" data-wow-delay="0.0s">
                                 Acompaña a Bretzel y Oliva en su viaje a Passau
                             </h4>
-                            <p class="paragraph wow fadeInUp" data-wow-delay="0.1s">
+                            <p data-i18n="hero_text" class="paragraph wow fadeInUp" data-wow-delay="0.1s">
                                 En esta web encontrarás información y consejos sobre cómo llegar a Passau y dónde
                                 alojarte.
                             </p>
@@ -253,85 +256,78 @@
                     <div class="col-lg-9">
                         <div class="gallery">
                             <a href="images/passau_region_map.png" class="landscape text-center">
-                                <img style="width: 100%;" src="images/passau_region_map.png" alt="Passau region map" />
+                                <img src="images/passau_region_map.png" usemap="#image-map" alt="Passau region map" />
                                 Aeropuertos cercanos a Passau, pulsa en la foto para ampliar la imagen</a>
+                            <map name="image-map">
+                                <area target="" alt="NUE" title="NUE" href="https://maps.app.goo.gl/JAjUDW2NZvd6pPXJ9"
+                                    coords="122,209,409,307" shape="rect">
+                                <area target="" alt="MUC" title="MUC" href="https://maps.app.goo.gl/HjRiHUgUM8R8fFL6A"
+                                    coords="182,392,423,477" shape="rect">
+                                <area target="" alt="VIE" title="VIE" href="https://maps.app.goo.gl/kDqBWdiY3NkiyfP26"
+                                    coords="646,410,890,509" shape="rect">
+                            </map>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <ul class="feature-icons">
-                        <li class="fa fa-plane">
-                            <h4>Aeropuerto de Munich - Flughafen München (MUC)</h4>
-                            <ul>
-                                <li class="fa fa-car">
-                                    <p class="paragraph">Coche: 160Km hasta Passau por autovía (1 hora y 20 min aprox.)
-                                    </p>
-                                </li>
-                                <li class="fa fa-train">
-                                    <p class="paragraph">Tren: 2 horas y 20 min hasta Passau Hbf (Hauptbahnhof, que
-                                        significa “estación de tren principal”). Para llegar hasta allí tenéis dos
-                                        opciones:</p>
-                                </li>
-                                <ul>
-                                    <li>Opción 1: Coger el tren “Flughafen express” en el mismo aeropuerto hasta la
-                                        estación de Freising y allí hacéis transbordo para coger el RE3 hasta
-                                        Passau.
-                                    </li>
-                                    <li>Opción 2: Coger en el aeropuerto el bus 635 hasta la
-                                        parada de Freising y luego el tren RE3 hasta Passau.
-                                    </li>
-                                </ul>
-
-                                <p class="paragraph">Para este recorrido os aconsejo comprar el “Bayernticket”, que es
-                                    un
-                                    billete de grupo y os podéis ahorrar bastante dinero. En el apartado de
-                                    “Transporte” podéis encontrar más información.</p>
-                            </ul>
-                        </li>
-                        <li class="fa fa-plane">
-                            <h4>Aeropuerto de Viena - Flughafen Wien (VIE)</h4>
-                            <ul>
-                                <li class="fa fa-car">
-                                    <p class="paragraph">Coche: 310Km hasta Passau (3 horas aprox.).
-                                        <strong>Ojo!</strong>
-                                        Para circular por las autovías austriacas, todo vehículo debe pagar un
-                                        impuesto en forma de pegatina llamada “Vignette”. En el apartado de
-                                        “Transporte” podéis encontrar más información.
-                                    </p>
-                                </li>
-                                <li class="fa fa-train">
-                                    <p class="paragraph">Tren: unas 3 horas hasta Passau Hbf dependiendo del trayecto y
-                                        transbordos, ya que hay varias opciones y precios que dependen del día y la
-                                        hora.
-                                        Los billetes los podéis mirar y comprar online a través de la web de la red
-                                        de trenes austríaca o ÖBB: https://www.oebb.at/en/</p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="fa fa-plane">
-                            <h4>Aeropuerto de Núremberg - Flughafen Nürnberg (NUE)</h4>
-                            <ul>
-                                <li class="fa fa-car">
-                                    <p class="paragraph">Coche: 220Km hasta Passau por autovía (2 horas aprox.)</p>
-                                </li>
-                                <li class="fa fa-train">
-                                    <p class="paragraph">Tren: Dependiendo del trayecto, entre 2 y 4 horas hasta Passau
-                                        Hbf. Hay trenes más rápidos que tienen un precio fijo y otros más lentos
-                                        dónde
-                                        se puede usar el billete de grupo que comenté en el apartado del aeropuerto
-                                        de Munich.
-                                        Ambos billetes se pueden mirar y sacar online en la web de la DB:
-                                        https://www.bahn.de/ </p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="fa fa-plane">
-                            <h4>Otros aeropuertos</h4>
-                            <p class="paragraph">Otros aeropuertos cercanos a los que podéis echar un vistazo son el de
-                                Salzburgo y Linz, ambos en Austria.
-                            </p>
-                        </li>
-                    </ul>
+                <div class="row mt-20">
+                    <h4><i class="ri-flight-takeoff-fill mr-6"></i>Aeropuerto de Munich - Flughafen München (MUC)</h4>
+                    <div class="row block mt-6">
+                        <p class="paragraph"><i class="ri-car-fill mr-6"></i>Coche: 160Km hasta Passau por autovía (1
+                            hora y 20 min aprox.)
+                        </p>
+                        <p class="paragraph"><i class="ri-train-fill mr-6"></i>Tren: 2 horas y 20 min hasta Passau Hbf
+                            usando cualquiera de las opciones que os dejo acontinuación. Para este trayecto os puede
+                            interesar el <a
+                                href="https://int.bahn.de/es/ofertas/regional/billete-regional-para-baviera">"Bayernticket"</a>.
+                        </p>
+                        <ul class="ml-40">
+                            <li>Opción 1: Coger el tren
+                                “Flughafen express” en el mismo aeropuerto hasta la
+                                estación de Freising y allí hacéis transbordo para coger el RE3 hasta Passau.
+                            </li>
+                            <li>Opción 2: Coger en el aeropuerto el bus 635 hasta la
+                                parada de Freising y luego el tren RE3 hasta Passau.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-20">
+                    <h4><i class="ri-flight-takeoff-fill mr-6"></i>Aeropuerto de Viena - Flughafen Wien (VIE)</h4>
+                    <div class="row block mt-6">
+                        <p class="paragraph"><i class="ri-car-fill mr-6"></i>Coche: 310Km hasta Passau (3 horas aprox.).
+                            <strong>Ojo!</strong>
+                            Para circular por las autovías austriacas, todo vehículo debe pagar un
+                            impuesto en forma de pegatina llamada “Vignette”. En el apartado de
+                            “Transporte” podéis encontrar más información.
+                        </p>
+                        <p class="paragraph"><i class="ri-train-fill mr-6"></i>Tren: unas 3 horas hasta Passau Hbf
+                            dependiendo del trayecto y transbordos. Los precios varían en función del día y la
+                            hora.
+                            Los billetes los podéis mirar y comprar online a través de la web de la red
+                            de trenes austríaca o <a href="https://www.oebb.at/en/">ÖBB</a></p>
+                    </div>
+                </div>
+                <div class="row mt-20">
+                    <h4><i class="ri-flight-takeoff-fill mr-6"></i>Aeropuerto de Núremberg - Flughafen Nürnberg (NUE)
+                    </h4>
+                    <div class="row block mt-6">
+                        <p class="paragraph"><i class="ri-car-fill mr-6"></i>Coche: 220Km hasta Passau por autovía (2
+                            horas aprox.)</p>
+                        <p class="paragraph"><i class="ri-train-fill mr-6"></i>Tren: Dependiendo del trayecto, entre 2 y
+                            4 horas hasta Passau Hbf. Hay trenes más rápidos que tienen un precio fijo y otros más
+                            lentos dónde se puede usar el <a
+                                href="https://int.bahn.de/es/ofertas/regional/billete-regional-para-baviera">"Bayernticket"</a>.
+                            Ambos billetes se pueden mirar y sacar online en la web de la <a
+                                href="https://www.oebb.at/en/">Deutsche Bahn</a>.</p>
+                    </div>
+                </div>
+                <div class="row mt-20">
+                    <h4><i class="ri-flight-takeoff-fill mr-6"></i>Otros aeropuertos</h4>
+                    <div class="row block mt-6">
+                        <p class="paragraph">Otros aeropuertos cercanos a los que podéis echar un vistazo son el de
+                            Salzburgo y Linz, ambos en Austria.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -384,34 +380,28 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="paragraph">Yo os recomendaría buscar alojamiento directamente en Passau, ya que en el
-                            pueblo dónde es la celebración no hay hoteles y tendríais que coger el coche igualmente.
-                            La zona marcada abajo en rojo contiene al casco antiguo de Passau, dónde hay más opciones de
+                <div class="row mt-25">
+                    <div class="col-lg-3">
+                        <p class="paragraph">Yo os recomendaría buscar alojamiento en Passau, ya que en el
+                            pueblo dónde es la celebración no hay hoteles. En la imagen podéis ver marcada en rojo la
+                            zona del casco antiguo de Passau, dónde hay más opciones de
                             alojamiento y es la zona con más encanto de la ciudad.</p>
+                        <p class="paragraph">Aunque a la iglesia se puede llegar fácilmente a pie o usando la línea de
+                            mini-buses K1 (la parada más cercana a la iglesia es
+                            “Mozartstr.”), a la celebración no queda más remedio que ir en coche.
+                            <strong>Si hay gente que necesite transporte el día de la boda, avisad a los novios sobre
+                                este tema.</strong>
+                        </p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="content">
-                        <div class="gallery">
-                            <a href="images/passau_map.png" class="landscape text-center">
-                                <img src="images/passau_map.png" alt="Passau map" />
-                                El centro de Passau, pulsa en la foto para ampliar la imagen
-                            </a>
+                    <div class="col-lg-9">
+                        <div class="content">
+                            <div class="gallery">
+                                <a href="images/passau_map.png" class="landscape text-center">
+                                    <img src="images/passau_map.png" alt="Passau map" />
+                                    El centro de Passau, pulsa en la foto para ampliar la imagen
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="paragraph">La única pega del centro es el aparcamiento, que es escaso y de pago por
-                            horas. Más abajo os dejo un apartado sobre dónde podéis aparcar de forma barata para
-                            aquellos que vengáis en coche.</p>
-                        <p class="paragraph">Desde el casco antiguo de Passau hasta la iglesia se puede llegar
-                            fácilmente a pie o usando la línea de mini-buses K1 (la parada más cercana a la iglesia es
-                            “Mozartstr.”).
-                            Al lugar de celebración no queda más remedio que ir en coche. Si hay gente que necesite
-                            transporte, avisad a los novios sobre este tema.</p>
                     </div>
                 </div>
                 <div class="section-subtitle mt-30">
@@ -419,15 +409,15 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="paragraph">Hoteles y apartamentos hay muchos en webs como <a
+                        <p class="paragraph">Hoteles y apartamentos hay de muchos tipos y precios en webs como <a
                                 href="https://www.booking.com/index.es.html">Booking</a> o <a
-                                href="https://www.airbnb.es">Airbnb</a>. Yo solamente conozco los dos siguientes por
-                            recomendaciones:</p>
+                                href="https://www.airbnb.es">Airbnb</a>, pero si vais buscando recomendaciones, aquí os
+                            dejo dos:</p>
                         <div class="row block">
                             <h5>Hotel Premier Inn "Weißer Hase"</h5>
-                            <p class="paragraph">Las habitaciones son nuevas (reformado hace 2 años) y la ubicación
+                            <p class="paragraph">Las habitaciones están muy bien y la ubicación
                                 es buena, muy céntrico y a unos 10 min andando de la estación de tren. Y para los que
-                                vengáis en coche, el hotel tiene parking de pago.</p>
+                                vengáis en coche, el hotel tiene parking propio de pago.</p>
                             <p class="paragraph">Aquí os dejo la web, por si le queréis echar un vistazo: <a
                                     href="https://www.premierinn.com/gb/en/hotels/germany/bavaria/passau/passau-weisser-hase.html">Hotel
                                     Premier Inn "Weißer Hase"</a></p>
@@ -438,7 +428,7 @@
                                 apartamentos para 2, 3 o 4 personas. Los precios varían en función del número de
                                 personas y tipo de habitación, pero para
                                 que os hagáis una idea, el precio para <strong>dos noches</strong> sería:</p>
-                            <ul>
+                            <ul class="ml-30">
                                 <li>Apartamento <strong>“Zimmerschied”</strong> para 2 personas:
                                     <strong>188€</strong> las 2 noches
                                 </li>
@@ -498,94 +488,70 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <p class="paragraph">Toda la zona del centro de Passau y alrededores es aparcamiento por horas
-                            cuyo
-                            precio varía en
-                            función de la cercanía al centro (aunque por la noche y festivos no son de pago). Pero si no
-                            vais a
+                            (excepto por la noche y festivos). Pero si no vais a
                             coger el coche durante unos días, os recomiendo dejar el coche en un parking ya que es mucho
-                            más
-                            barato. Aquí os dejo los más económicos:</p>
+                            más barato y menos complicado. Aquí os dejo los más económicos:</p>
                     </div>
                 </div>
                 <div class="row block">
                     <h5>Parkhaus Bahnhofstraße</h5>
-                    <div class="col-lg-8">
-                        <ul>
-                            <li>Es un parking que está junto a la estación de tren y a unos 15 minutos del
-                                centro a pie. </li>
-                            <li>Cuesta 10€ por día.</li>
-                            <li>740 plazas</li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="sign-btn">
-                            <a href="https://maps.app.goo.gl/F5bpbvhuFh6wWkPV8"
-                                class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <ul>
+                                <li>Parking cubierto que está junto a la estación de tren y a unos 15 minutos del
+                                    centro a pie. </li>
+                                <li>Cuesta 10€ por día.</li>
+                                <li>740 plazas</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="sign-btn">
+                                <a href="https://maps.app.goo.gl/F5bpbvhuFh6wWkPV8"
+                                    class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row block">
                     <h5>Parkdeck Ilzbrücke</h5>
-                    <div class="col-lg-8">
-                        <ul>
-                            <li>Parking que está en la zona de Ilzstadt, a unos 10 minutos del centro. Tiene
-                                parking de caravanas.
-                            </li>
-                            <li>Cuesta 5€ por día o 14€ por semana.</li>
-                            <li>130 plazas</li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="sign-btn">
-                            <a href="https://maps.app.goo.gl/msjBEzwKJkosG5PV9"
-                                class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <ul>
+                                <li>Parking cubierto que está en la zona de Ilzstadt, a unos 10 minutos del centro.
+                                    Tiene parking de caravanas al aire libre.
+                                </li>
+                                <li>Cuesta 5€ por día o 14€ por semana.</li>
+                                <li>130 plazas</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="sign-btn">
+                                <a href="https://maps.app.goo.gl/msjBEzwKJkosG5PV9"
+                                    class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row block">
                     <h5>Parkplatz Kapuzinerstraße</h5>
-                    <div class="col-lg-8">
-                        <ul>
-                            <li>Parking por la zona de Innstadt, a unos 15 minutos del centro.</li>
-                            <li>Es un parking por hora, lo que significa que tendrás que estar yendo todos los
-                                días a sacar un ticket del día en el parquímetro, pero si te hospedas cerca te puede
-                                interesar. Cuesta 3€ las 24 horas. </li>
-                            <li>50 plazas</li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="sign-btn">
-                            <a href="https://maps.app.goo.gl/eyemgeoWcpc5PJjW6"
-                                class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <ul>
+                                <li>Parking al aire libre por la zona de Innstadt, a unos 15 minutos del centro.</li>
+                                <li>Es un parking por hora, lo que significa que tendrás que estar yendo todos los
+                                    días a sacar un ticket del día en el parquímetro, pero si te hospedas cerca te puede
+                                    interesar. Cuesta 3€ las 24 horas. </li>
+                                <li>50 plazas</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="sign-btn">
+                                <a href="https://maps.app.goo.gl/eyemgeoWcpc5PJjW6"
+                                    class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--
-                    <div class="col-xl-7 col-lg-6">
-                        <div class="about-count-section about-count-before-bg">
-                            <div class="banner">
-                                <img src="./Multipurpose travel and tour booking_files/about-banner-three.png"
-                                    alt="travello">
-                            </div>
-                            <div class="all-count-list">
-                                <div class="details">
-                                    <h4 class="count">150k</h4>
-                                    <p class="paragraph">Happy Traveler</p>
-                                </div>
-                                <div class="divider"></div>
-                                <div class="details">
-                                    <h4 class="count">95.7%</h4>
-                                    <p class="paragraph">Satisfaction Rate</p>
-                                </div>
-                                <div class="divider"></div>
-                                <div class="details">
-                                    <h4 class="count">5000+</h4>
-                                    <p class="paragraph">Tour Completed</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    -->
             </div>
         </section>
         <!--/ End of Parking area-->
@@ -615,25 +581,16 @@
                             <li><strong>“Öffnungszeiten”</strong> (Horario de apertura).
                                 <p class="paragraph">En Alemania los horarios del día a día
                                     están adelantados como una o dos horas respecto a España, de modo que el horario de
-                                    las
-                                    comidas,
-                                    apertura de los comercios y restaurantes son algo diferentes.
+                                    las comidas, apertura de los comercios y restaurantes son algo diferentes.
                                     Los supermercados suelen abrir de 7:00 a 20:00 de lunes a sábados y las tiendas de
-                                    09:30 o
-                                    10:00
+                                    09:30 o 10:00
                                     hasta las 18:00 o 19:00 (aunque los sábados pueden hasta cerrar antes). Los domingos
-                                    son los
-                                    días de descanso y no encontraréis nada abierto excepto algunas tiendas y
-                                    supermercados en
-                                    las
-                                    estaciones de tren.
+                                    son los días de descanso y no encontraréis nada abierto excepto algunas tiendas y
+                                    supermercados en las estaciones de tren.
                                     Las cafeterías y restaurantes tienen también un horario diferente, ya que aquí se
-                                    almuerza
-                                    entre
+                                    almuerza entre
                                     las 11:30 y 13:00, y se cena entre las 18:00 y 21:00 lo más tardar. De modo que
-                                    debéis
-                                    tenerlo
-                                    en cuenta si no queréis acabar cenando en un McDonalds 😉 </p>
+                                    debéis tenerlo en cuenta si no queréis acabar cenando en un McDonalds 😉 </p>
                             </li>
                             <li><strong>“Pfand”</strong> (depósito por envases).
                                 <p class="paragraph">En Alemania hay varios tipos de envases,
@@ -645,7 +602,7 @@
                                 <p class="paragraph">El tipo de depósito varía en función del envase y aunque a veces
                                     viene indicado en la
                                     botella
-                                    o en el marcador del precio, aquí os dejo unos ejemplos:
+                                    o en el marcador del precio, aquí os dejo unos ejemplos: </p>
                                 <ul>
                                     <li>Botellas grandes de plástico y latas: 0,25€</li>
                                     <li>Botellas pequeñas y envases de yogurt de vidrio: 0,15€</li>
@@ -654,7 +611,7 @@
                                         platos que
                                         os devolverán al entregar el envase de vuelta.</li>
                                 </ul>
-                                </p>
+
                                 <p class="paragraph">En los supermercados podéis encontrar máquinas dónde depositar los
                                     envases y os
                                     devolverán
@@ -1050,8 +1007,7 @@
                         <div class="col-lg-12">
                             <div class="d-flex justify-content-between gap-14 flex-wrap">
                                 <p class="paragraph">
-                                    © <span class="current-year">2024</span> C&J. All rights
-                                    reserved
+                                    © <span class="current-year">2024</span> C&J. All rights reserved
                                 </p>
                                 <p class="paragraph">Powered by @Travello</p>
                             </div>
