@@ -15019,12 +15019,6 @@ input[type=number] {
   line-height: 1.6;
 }
 
-@media (max-width: 991px) {
-  .text-area .paragraph {
-    font-size: 14px;
-  }
-}
-
 .text-area .block {
   padding: 8px 30px 8px 30px;
 }
