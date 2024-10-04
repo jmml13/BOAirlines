@@ -11,5 +11,14 @@
     "menu_4_4": "Comidas y bebidas",
     "menu_4_5": "Passau",
     "hero_title": "Acompaña a Bretzel y Oliva en su viaje a Passau",
-    "hero_text": "En esta web encontrarás información y consejos sobre cómo llegar a Passau y dónde alojarte."
+    "hero_text": "En esta web encontrarás información y consejos sobre cómo llegar a Passau y dónde alojarte.",
+    "nav1_tab": "Vuelos",
+    "nav1_title": "Viaja con nosotros",
+    "nav1_labelfrom": "Desde",
+    "nav1_labelto": "Hasta",
+    "nav1_button": "Busca hacia dónde volar",
+    "nav2_tab": "Hoteles",
+    "nav2_text": "Podéis encontrar alojamientos fácilmente en webs como <a href=\"https://www.booking.com/index.es.html\">Booking</a> o <a href=\"https://www.airbnb.es\">Airbnb</a>. Pero si vais buscando algo que os podamos recomendar, pulsa el siguiente botón",
+    "nav2_button": "Busca hoteles recomendados",
+    "nav3_tab": "Parking"
 }
