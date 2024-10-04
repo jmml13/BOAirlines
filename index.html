@@ -32,12 +32,15 @@
             <div class="row">
                 <div class="top-menu-wrapper d-flex align-items-center justify-content-between">
                     <div class="col-lg-4">
-                        <!--<div class="logo">
+                        <a href="./B&OAirlines_2.html">
+                            <!--<div class="logo">
                                     <img src="./images/logo.tiff" width="350" height="200" alt="logo">
                                 </div>-->
-                        <div data-i18n="head_title" class="header-title fancy-font">Bretzel & Oliva Airlines</div>
-                        <div data-i18n="head_subtitle" class="header-subtitle fancy-font">La aerolínea del "Sí, quiero"
-                        </div>
+                            <div data-i18n="head_title" class="header-title fancy-font">Bretzel & Oliva Airlines</div>
+                            <div data-i18n="head_subtitle" class="header-subtitle fancy-font">La aerolínea del "Sí,
+                                quiero"
+                            </div>
+                        </a>
                     </div>
                     <div class="col-lg-6">
                         <!-- Main-menu for desktop -->
@@ -138,21 +141,21 @@
                                 <!-- Tab Buttons -->
                                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <button class="plan-link active" id="tour-tab" data-bs-toggle="tab"
+                                        <button data-i18n="nav1_tab" class="plan-link active" id="tour-tab" data-bs-toggle="tab"
                                             data-bs-target="#tour" type="button" role="tab" aria-controls="tour"
                                             aria-selected="true">
                                             <i class="ri-flight-takeoff-fill"></i>Vuelos
                                         </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="plan-link" id="book-tab" data-bs-toggle="tab"
+                                        <button data-i18n="nav2_tab" class="plan-link" id="book-tab" data-bs-toggle="tab"
                                             data-bs-target="#book" type="button" role="tab" aria-controls="book"
                                             aria-selected="false" tabindex="-1">
                                             <i class="ri-hotel-bed-fill"></i>Hoteles
                                         </button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="plan-link" id="car-tab" data-bs-toggle="tab"
+                                        <button data-i18n="nav3_tab" class="plan-link" id="car-tab" data-bs-toggle="tab"
                                             data-bs-target="#car" type="button" role="tab" aria-controls="car"
                                             aria-selected="false" tabindex="-1">
                                             <i class="ri-parking-box-fill"></i>Parking
@@ -165,17 +168,17 @@
                                     <div class="tab-pane fade show active" id="tour" role="tabpanel"
                                         aria-labelledby="tour-tab">
                                         <div class="row g-4">
-                                            <h4 class="title">Viaja con nosotros</h4>
+                                            <h4 data-i18n="nav1_title" class="title">Viaja con nosotros</h4>
                                             <div class="col-xl-6">
                                                 <div class="input-wraper">
-                                                    <label for="from_id">Desde</label>
+                                                    <label data-i18n="nav1_labelfrom" for="from_id">Desde</label>
                                                     <input class="input-search" type="search" name="footer" id="from_id"
                                                         placeholder="Cualquier parte del mundo">
                                                 </div>
                                             </div>
                                             <div class="col-xl-6">
                                                 <div class="input-wraper">
-                                                    <label for="to_id">Hasta</label>
+                                                    <label data-i18n="nav1_labelto" for="to_id">Hasta</label>
                                                     <input class="input-search" type="search" name="footer" id="to_id"
                                                         placeholder="Passau">
                                                 </div>
@@ -184,7 +187,7 @@
                                         <div class="row g-4 justify-content-end">
                                             <div class="col-xl-3">
                                                 <div class="sign-btn">
-                                                    <a href="#travel" class="btn-primary-lg w-100 text-center">
+                                                    <a href="#travel" data-i18n="nav1_button" class="btn-primary-lg w-100 text-center">
                                                         Busca hacia dónde volar
                                                     </a>
                                                 </div>
@@ -192,8 +195,8 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="book" role="tabpanel" aria-labelledby="book-tab">
-                                        <h4 class="title">Encuentra dónde alojarte</h4>
-                                        <p class="paragraph">Podéis encontrar alojamientos fácilmente en webs como <a
+                                        <h4 data-i18n="nav2_title" class="title">Encuentra dónde alojarte</h4>
+                                        <p data-i18n="nav2_text" class="paragraph">Podéis encontrar alojamientos fácilmente en webs como <a
                                                 href="https://www.booking.com/index.es.html">Booking</a> o <a
                                                 href="https://www.airbnb.es">Airbnb</a>.
                                             Pero si vais buscando algo que os podamos recomendar, pulsa el siguiente
@@ -201,7 +204,7 @@
                                         <div class="row g-4 justify-content-end">
                                             <div class="col-xl-3">
                                                 <div class="sign-btn">
-                                                    <a href="#hotel" class="btn-primary-lg w-100 text-center">
+                                                    <a data-i18n="nav2_button" href="#hotel" class="btn-primary-lg w-100 text-center">
                                                         Busca hoteles recomendados
                                                     </a>
                                                 </div>
@@ -254,28 +257,20 @@
                         </p>
                     </div>
                     <div class="col-lg-9">
-                        <div class="gallery">
-                            <a href="images/passau_region_map.png" class="landscape text-center">
-                                <img src="images/passau_region_map.png" usemap="#image-map" alt="Passau region map" />
-                                Aeropuertos cercanos a Passau, pulsa en la foto para ampliar la imagen</a>
-                            <map name="image-map">
-                                <area target="" alt="NUE" title="NUE" href="https://maps.app.goo.gl/JAjUDW2NZvd6pPXJ9"
-                                    coords="122,209,409,307" shape="rect">
-                                <area target="" alt="MUC" title="MUC" href="https://maps.app.goo.gl/HjRiHUgUM8R8fFL6A"
-                                    coords="182,392,423,477" shape="rect">
-                                <area target="" alt="VIE" title="VIE" href="https://maps.app.goo.gl/kDqBWdiY3NkiyfP26"
-                                    coords="646,410,890,509" shape="rect">
-                            </map>
-                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1OLhclmW-45Wp2LINY4zVQiosAWbtN2c&ehbc=2E312F&noprof=1"
+                            width="100%" height="480"></iframe>"
                     </div>
                 </div>
                 <div class="row mt-20">
                     <h4><i class="ri-flight-takeoff-fill mr-6"></i>Aeropuerto de Munich - Flughafen München (MUC)</h4>
                     <div class="row block mt-6">
-                        <p class="paragraph"><i class="ri-car-fill mr-6"></i>Coche: 160Km hasta Passau por autovía (1
+                        <p class="paragraph"><i class="ri-car-fill mr-6"></i><strong>Coche:</strong> 160Km hasta Passau
+                            por autovía (1
                             hora y 20 min aprox.)
                         </p>
-                        <p class="paragraph"><i class="ri-train-fill mr-6"></i>Tren: 2 horas y 20 min hasta Passau Hbf
+                        <p class="paragraph"><i class="ri-train-fill mr-6"></i><strong>Tren:</strong> 2 horas y 20 min
+                            hasta Passau Hbf
                             usando cualquiera de las opciones que os dejo acontinuación. Para este trayecto os puede
                             interesar el <a
                                 href="https://int.bahn.de/es/ofertas/regional/billete-regional-para-baviera">"Bayernticket"</a>.
@@ -283,7 +278,7 @@
                         <ul class="ml-40">
                             <li>Opción 1: Coger el tren
                                 “Flughafen express” en el mismo aeropuerto hasta la
-                                estación de Freising y allí hacéis transbordo para coger el RE3 hasta Passau.
+                                estación de Freising y allí hacéis transbordo para coger el tren RE3 hasta Passau.
                             </li>
                             <li>Opción 2: Coger en el aeropuerto el bus 635 hasta la
                                 parada de Freising y luego el tren RE3 hasta Passau.
@@ -294,13 +289,15 @@
                 <div class="row mt-20">
                     <h4><i class="ri-flight-takeoff-fill mr-6"></i>Aeropuerto de Viena - Flughafen Wien (VIE)</h4>
                     <div class="row block mt-6">
-                        <p class="paragraph"><i class="ri-car-fill mr-6"></i>Coche: 310Km hasta Passau (3 horas aprox.).
+                        <p class="paragraph"><i class="ri-car-fill mr-6"></i><strong>Coche:</strong> 310Km hasta Passau
+                            (3 horas aprox.).
                             <strong>Ojo!</strong>
                             Para circular por las autovías austriacas, todo vehículo debe pagar un
                             impuesto en forma de pegatina llamada “Vignette”. En el apartado de
                             “Transporte” podéis encontrar más información.
                         </p>
-                        <p class="paragraph"><i class="ri-train-fill mr-6"></i>Tren: unas 3 horas hasta Passau Hbf
+                        <p class="paragraph"><i class="ri-train-fill mr-6"></i><strong>Tren:</strong> unas 3 horas hasta
+                            Passau Hbf
                             dependiendo del trayecto y transbordos. Los precios varían en función del día y la
                             hora.
                             Los billetes los podéis mirar y comprar online a través de la web de la red
@@ -311,9 +308,11 @@
                     <h4><i class="ri-flight-takeoff-fill mr-6"></i>Aeropuerto de Núremberg - Flughafen Nürnberg (NUE)
                     </h4>
                     <div class="row block mt-6">
-                        <p class="paragraph"><i class="ri-car-fill mr-6"></i>Coche: 220Km hasta Passau por autovía (2
+                        <p class="paragraph"><i class="ri-car-fill mr-6"></i><strong>Coche:</strong> 220Km hasta Passau
+                            por autovía (2
                             horas aprox.)</p>
-                        <p class="paragraph"><i class="ri-train-fill mr-6"></i>Tren: Dependiendo del trayecto, entre 2 y
+                        <p class="paragraph"><i class="ri-train-fill mr-6"></i><strong>Tren:</strong> Dependiendo del
+                            trayecto, entre 2 y
                             4 horas hasta Passau Hbf. Hay trenes más rápidos que tienen un precio fijo y otros más
                             lentos dónde se puede usar el <a
                                 href="https://int.bahn.de/es/ofertas/regional/billete-regional-para-baviera">"Bayernticket"</a>.
@@ -416,7 +415,7 @@
                         <div class="row block">
                             <h5>Hotel Premier Inn "Weißer Hase"</h5>
                             <p class="paragraph">Las habitaciones están muy bien y la ubicación
-                                es buena, muy céntrico y a unos 10 min andando de la estación de tren. Y para los que
+                                es céntrica, a unos 10 min andando de la estación de tren. Y para los que
                                 vengáis en coche, el hotel tiene parking propio de pago.</p>
                             <p class="paragraph">Aquí os dejo la web, por si le queréis echar un vistazo: <a
                                     href="https://www.premierinn.com/gb/en/hotels/germany/bavaria/passau/passau-weisser-hase.html">Hotel
@@ -487,9 +486,9 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="paragraph">Toda la zona del centro de Passau y alrededores es aparcamiento por horas
-                            (excepto por la noche y festivos). Pero si no vais a
-                            coger el coche durante unos días, os recomiendo dejar el coche en un parking ya que es mucho
+                        <p class="paragraph">En el centro de Passau los aparcamientos son por horas
+                            (excepto noches y festivos). Pero si no vais a
+                            coger el coche durante unos días, os recomiendo dejarlo en un parking ya que será
                             más barato y menos complicado. Aquí os dejo los más económicos:</p>
                     </div>
                 </div>
@@ -498,16 +497,16 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <ul>
-                                <li>Parking cubierto que está junto a la estación de tren y a unos 15 minutos del
+                                <li>Parking cubierto junto a la estación de tren y a unos 15 minutos del
                                     centro a pie. </li>
                                 <li>Cuesta 10€ por día.</li>
-                                <li>740 plazas</li>
+                                <li>740 plazas.</li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
                             <div class="sign-btn">
                                 <a href="https://maps.app.goo.gl/F5bpbvhuFh6wWkPV8"
-                                    class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                                    class="btn-primary-lg w-100 text-center">¿Cómo llegar?</a>
                             </div>
                         </div>
                     </div>
@@ -517,17 +516,18 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <ul>
-                                <li>Parking cubierto que está en la zona de Ilzstadt, a unos 10 minutos del centro.
+                                <li>Parking cubierto con parquímetro por horas en la zona de Ilzstadt, a unos 10 minutos
+                                    del centro.
                                     Tiene parking de caravanas al aire libre.
                                 </li>
                                 <li>Cuesta 5€ por día o 14€ por semana.</li>
-                                <li>130 plazas</li>
+                                <li>130 plazas.</li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
                             <div class="sign-btn">
                                 <a href="https://maps.app.goo.gl/msjBEzwKJkosG5PV9"
-                                    class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                                    class="btn-primary-lg w-100 text-center">¿Cómo llegar?</a>
                             </div>
                         </div>
                     </div>
@@ -537,17 +537,16 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <ul>
-                                <li>Parking al aire libre por la zona de Innstadt, a unos 15 minutos del centro.</li>
-                                <li>Es un parking por hora, lo que significa que tendrás que estar yendo todos los
-                                    días a sacar un ticket del día en el parquímetro, pero si te hospedas cerca te puede
-                                    interesar. Cuesta 3€ las 24 horas. </li>
-                                <li>50 plazas</li>
+                                <li>Parking al aire libre con parquímetro por horas en la zona de Innstadt, a unos 15
+                                    minutos del centro.</li>
+                                <li>Cuesta 3€ las 24 horas.</li>
+                                <li>50 plazas.</li>
                             </ul>
                         </div>
                         <div class="col-lg-4">
                             <div class="sign-btn">
                                 <a href="https://maps.app.goo.gl/eyemgeoWcpc5PJjW6"
-                                    class="btn-primary-lg w-100 text-center"> ¿Cómo llegar?</a>
+                                    class="btn-primary-lg w-100 text-center">¿Cómo llegar?</a>
                             </div>
                         </div>
                     </div>
@@ -561,15 +560,15 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="section-title">
-                        <h4 class="title mx-430 mx-auto text-center">
-                            Consejos - Deutschlandreiseratschlägezusammenstellung
+                        <h4 class="title mx-auto text-center">
+                            Consejos - </br> Deutschlandreiseratschlägezusammenstellung
                         </h4>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="paragraph">Aquí os dejo unos consejos que os pueden ser útil a la hora de viajar por
-                            Alemania.</p>
+                        <p class="paragraph">Aquí os dejo unos consejos que os pueden ser útil durante vuestra estancia
+                            en Alemania.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -578,104 +577,100 @@
                             <span id="general" class="highlights">General</span>
                         </div>
                         <ul>
-                            <li><strong>“Öffnungszeiten”</strong> (Horario de apertura).
+                            <li class="mt-15"><strong>“Öffnungszeiten”</strong> (Horario de apertura).
                                 <p class="paragraph">En Alemania los horarios del día a día
                                     están adelantados como una o dos horas respecto a España, de modo que el horario de
-                                    las comidas, apertura de los comercios y restaurantes son algo diferentes.
-                                    Los supermercados suelen abrir de 7:00 a 20:00 de lunes a sábados y las tiendas de
-                                    09:30 o 10:00
-                                    hasta las 18:00 o 19:00 (aunque los sábados pueden hasta cerrar antes). Los domingos
-                                    son los días de descanso y no encontraréis nada abierto excepto algunas tiendas y
-                                    supermercados en las estaciones de tren.
-                                    Las cafeterías y restaurantes tienen también un horario diferente, ya que aquí se
-                                    almuerza entre
+                                    las comidas, apertura de los comercios y restaurantes son algo diferentes.</p>
+                                <p class="paragraph">Los supermercados suelen abrir de 7:00 a 20:00 de lunes a sábados
+                                    y las tiendas de 09:30 o 10:00 hasta las 18:00 o 19:00 (aunque los sábados suelen
+                                    cerrar antes). Los domingos son los días de descanso y no encontraréis nada abierto
+                                    excepto los supermercados de las estaciones de tren.</p>
+                                <p class="paragraph">Los restaurantes también tienen un horario diferente, ya que aquí
+                                    se almuerza entre
                                     las 11:30 y 13:00, y se cena entre las 18:00 y 21:00 lo más tardar. De modo que
                                     debéis tenerlo en cuenta si no queréis acabar cenando en un McDonalds 😉 </p>
                             </li>
-                            <li><strong>“Pfand”</strong> (depósito por envases).
+                            <li class="mt-15"><strong>“Pfand”</strong> (depósito por envases).
                                 <p class="paragraph">En Alemania hay varios tipos de envases,
                                     como botellas y latas, que tienen un tipo de “depósito de reciclaje” que pagas al
-                                    comprarlo
-                                    y te lo devuelven al entregar el envase de vuelta. Los envases con Pfand los podéis
-                                    identificar
-                                    con el siguiente logo:</p>
-                                <p class="paragraph">El tipo de depósito varía en función del envase y aunque a veces
-                                    viene indicado en la
-                                    botella
-                                    o en el marcador del precio, aquí os dejo unos ejemplos: </p>
-                                <ul>
-                                    <li>Botellas grandes de plástico y latas: 0,25€</li>
-                                    <li>Botellas pequeñas y envases de yogurt de vidrio: 0,15€</li>
-                                    <li>Botellas de cerveza: 0,08€</li>
-                                    <li>En algunos tipos de eventos os pueden pedir Pfand por vasos, jarras o incluso
-                                        platos que
-                                        os devolverán al entregar el envase de vuelta.</li>
-                                </ul>
-
+                                    comprar el producto
+                                    y te lo devuelven al entregar el envase en la tienda. Los envases con Pfand los
+                                    podéis
+                                    identificar con el siguiente logo:</p>
+                                <div class="gallery">
+                                    <a href="images/pfand_logo.jpg" class="landscape">
+                                        <img src="images/pfand_logo.jpg" alt="Pfand logo" />
+                                    </a>
+                                </div>
+                                <p class="paragraph">El tipo de depósito varía en función del envase, desde 8 céntimos
+                                    por botellas de cerveza hasta 25 céntimos por botellas de plástico y latas. En
+                                    algunos tipos de eventos os pueden pedir Pfand por vasos, jarras o incluso
+                                    platos que os devolverán al entregar el envase de vuelta.</p>
                                 <p class="paragraph">En los supermercados podéis encontrar máquinas dónde depositar los
-                                    envases y os
-                                    devolverán
-                                    un ticket con el importe que podéis usar en otras compras o directamente canjearlo
-                                    en la
-                                    caja del supermercado.
-                                    Si no encontráis máquinas dónde devolver las botellas, éstas se suelen dejar junto a
-                                    papeleras para que alguien se encargue de recogerlas y reciclarlas.</p>
+                                    envases y os devolverán un ticket con el importe que podéis usar en otras compras o
+                                    directamente canjearlo en la caja del supermercado.
+                                    Si no tenéis el tiempo para devolver las botellas, éstas se suelen dejar junto a
+                                    papeleras para que alguien se encargue de recogerlas y devolverlas por vosotros.</p>
+                                <div class="gallery">
+                                    <a href="images/pfand_machine.jpg" class="landscape">
+                                        <img src="images/pfand_machine.jpg" alt="Return Pfand" />
+                                    </a>
+                                </div>
                             </li>
-                            <li><strong>“Trinkgeld”</strong> (propina en restaurantes y cafeterías).
-                                <p class="paragraph">En Alemania existe la
-                                    cultura de dar propina en restaurantes, cafeterías e incluso peluquerías. La propina
-                                    suele
-                                    ser de un 5% a un 10% según la calidad de la comida, amabilidad del personal o
-                                    incluso
-                                    ideales propios… y ésta no va incluida en la cuenta. En restaurantes o cafeterías
-                                    dónde no
-                                    hay un servicio del camarero no es necesario dar propina.
+                            <li class="mt-15"><strong>“Trinkgeld”</strong> (propina en restaurantes y cafeterías).
+                                <p class="paragraph">En Alemania existe la cultura de dar propina por el servicio
+                                    ofrecido en restaurantes, cafeterías e incluso peluquerías.</p>
+                                <p class="paragraph">La propina no va incluida en la cuenta a pagar y aunque no es
+                                    obligatorio darla, está mal visto no hacerlo. Ésta suele ser de un 5% a un 10% del
+                                    importe a pagar y varía en función de la calidad de la comida, amabilidad del
+                                    personal o incluso ideales propios… No es necesario dar propina en restaurantes,
+                                    cafeterías o heladerías dónde no hubo un servicio del camarero atendiendo las mesas.
                                 </p>
                             </li>
-                            <li><strong>“Biergarten”</strong>.
+                            <li class="mt-15"><strong>“Biergarten”</strong>.
                                 <p class="paragraph">En Bayern existen unas terrazas o jardines públicos dónde te
                                     puedes sentar a tomar una cerveza y comer algo a la sombra de unos castaños. En
-                                    estos sitios
-                                    no hay camareros que atiendan en las mesas, pero sí unos puestos en los alrededores
-                                    dónde
-                                    comprar la bebida y comida. Existe la regla no escrita de que al menos la bebida la
-                                    debes
-                                    comprar allí y la comida es opcional (te la puedes traer de casa si quieres).
-                                    Además, se
-                                    pueden
-                                    hasta compartir las mesas con desconocidos.
+                                    estos sitios no hay camareros que atiendan en las mesas, pero sí unos puestos en los
+                                    alrededores dónde comprar la bebida y comida. Como las mesas son grandes, es
+                                    normal compartirlas con desconocidos.
                                 </p>
+                                <div class="gallery">
+                                    <a href="images/biergarten.jpg" class="landscape text-center">
+                                        <img src="images/biergarten.jpg" alt="Biergarten" />
+                                    </a>
+                                </div>
                             </li>
-                            <li><strong>“Frühstuck”</strong> (el desayuno).
+                            <li class="mt-15"><strong>“Frühstuck”</strong> (el desayuno).
                                 <p class="paragraph">Aquí hay también diferencias respecto al desayuno
-                                    español. En Alemania si sales a desayunar, lo haces a lo grande. Encontraréis menús
-                                    dónde os
-                                    incluyen café, zumo, pan, huevo, embutido, yogur… Aunque siempre podréis tendréis la
-                                    opción
-                                    de pedir algo pequeño, como un Bretzel con mantequilla (Butterbretze). La típica
-                                    tostada con
-                                    jamón y aceite no la encontraréis por aquí, aunque sí que hay algo muy bávaro que
-                                    debéis
-                                    probar: el <strong>Weißwurstfrühstück</strong>, dos salchichas blancas cocidas
-                                    acompañadas
-                                    de un Bretzel y una Weißbier o cerveza de trigo:
+                                    español. En Alemania si sales a desayunar, es típico hacerlo a lo grande.
+                                    Encontraréis menús dónde os incluyen café, zumo, pan, huevo, embutido, yogur… Aunque
+                                    siempre podréis tendréis la opción
+                                    de pedir algo pequeño, como un Bretzel con mantequilla (Butterbretze). </p>
+                                <p class="paragraph">La típica tostada con jamón y aceite no la encontraréis por aquí,
+                                    pero sí algo muy bávaro que debéis probar: el <strong>Weißwurstfrühstück</strong>,
+                                    dos salchichas blancas cocidas acompañadas de un Bretzel y una Weißbier o cerveza de
+                                    trigo:
                                 </p>
+                                <div class="gallery">
+                                    <a href="images/weisswurst.png" class="landscape text-center">
+                                        <img src="images/weisswurst.png" alt="Weißwurstfrühstück" />
+                                    </a>
+                                </div>
                             </li>
-                            <li><strong>“Wasser ohne Kohlensäure”</strong> (agua sin gas).
+                            <li class="mt-15"><strong>“Wasser ohne Kohlensäure”</strong> (agua sin gas).
                                 <p class="paragraph">En Alemania mucha gente prefiere el
                                     agua con gas, de modo que lo típico es servirla así mientras no se especifique lo
                                     contrario.
-                                    La palabra “ohne Kohlensäure” (pron. “óne colen-sóire”) os puede ayudar a pedirla
-                                    sin gas.
+                                    La palabra “ohne Kohlensäure” (pronunciada “óne colen-sóire”) os puede ayudar a
+                                    pedirla sin gas.
                                 </p>
                             </li>
-                            <li><strong>“Brot”</strong> (pan).
+                            <li class="mt-15"><strong>“Brot”</strong> (pan).
                                 <p class="paragraph">En Alemania hay cientos de tipos de panes: de trigo, de centeno,
                                     de espelta, de patata, con semillas, sin semillas, con mezcla de harinas… y no se
                                     sirve pan
                                     en los restaurantes sin pedirlo, ya que la gente no come con pan a no ser que sea un
-                                    plato
-                                    dónde haga falta.
+                                    plato dónde haga falta.
                                 </p>
                             </li>
                         </ul>
@@ -688,73 +683,24 @@
                         <div class="section-subtitle mt-30">
                             <span id="langu" class="highlights">Idioma</span>
                         </div>
-                        <p class="paragraph">El traductor de Google puede ser vuestro mejor amigo en este viaje y
-                            ayudaros a traducir
-                            cartas,
-                            carteles o incluso ayudaros a preguntar cosas. Pero os dejo por aquí algunas palabras
-                            básicas que
-                            podréis usar en vuestro día a día:</p>
+                        <p class="paragraph">El traductor de Google puede ser vuestro mejor amigo en este viaje. Os
+                            puede ayudar a traducir cartas, carteles o incluso a preguntar cosas. Pero si queréis
+                            atreveros a aprender algunas palabras,
+                            <a href="https://www.loecsen.com/es/vocabulario-aleman#expresiones-principales">aquí</a> os
+                            dejo una web con algunas expresiones.
+                        </p>
                         <div class="row block">
-                            <h5>Saludos y despedidas</h5>
-                            <ul>
+                            <h5>Imprencindibles</h5>
+                            <ul class="ml-30">
                                 <li><strong>Hallo</strong> (pronunciado “álo”) - Hola.</li>
-                                <li><strong>Servus</strong> (pron. “sérvus”) - Hola en bávaro.</li>
-                                <li><strong>Grüß Gott</strong> (pron. “grus got”) - Hola en bávaro, más tradicional.
-                                </li>
-                                <li><strong>Guten Morgen</strong> (pron. “gúten mórgen“) - Buenos días por la mañana
-                                </li>
-                                <li><strong>Morgen</strong> (pron. „mórgen“) - Buenos días, pero más coloquial como un
-                                    “Buenas”
-                                </li>
-                                <li><strong>Guten Tag</strong> (pron. “gúten tag“) - Buenos días, pero ya más avanzado
-                                    el
-                                    día
-                                </li>
-                                <li><strong>Guten Abend</strong> (pron. „gúten ábend“) - Buenas tardes/noches</li>
-                                <li><strong>Gute Nacht</strong> (pron. „gúte nagt“) - Buenas noches, pero cuando te vas
-                                    a la
-                                    cama</li>
                                 <li><strong>Tschüss</strong> (pron. „chuss“) - Adiós</li>
-                                <li><strong>Ciao</strong> (pron. „chao“) - Adiós, aunque más coloquial</li>
                                 <li><strong>Auf Wiedersehen</strong> (pron. “auf vídarseen“) - Hasta la próxima</li>
-                            </ul>
-                        </div>
-                        <div class="row block">
-                            <h5>Agradecer y disculparse</h5>
-                            <ul>
                                 <li><strong>Danke</strong> (pron. „dánque“) - Gracias</li>
-                                <li><strong>Vielen Dank</strong> (pron. „fílen dank“) - Muchas gracias</li>
                                 <li><strong>Entschuldigung</strong> (pron. „enchúldigung“) - Perdón, disculpa</li>
                                 <li><strong>Bitte</strong> (pron. „bite“) - Por favor, de nada</li>
-                            </ul>
-                        </div>
-                        <div class="row block">
-                            <h5>Números</h5>
-                            <ul>
-                                <li><strong>Eins</strong> (pron. “áins”) - Uno</li>
-                                <li><strong>Zwei</strong> (pron. “svai”) - Dos</li>
-                                <li><strong>Drei</strong> (pron. “drai”) - Tres</li>
-                                <li><strong>Vier</strong> (pron. “fia”) - Cuatro</li>
-                                <li><strong>Fünf</strong> (pron. “funf) - Cinco</li>
-                                <li><strong>Sechs</strong> (pron. “seks”) - Seis</li>
-                                <li><strong>Sieben</strong> (pron. “síben”) - Siete</li>
-                                <li><strong>Acht</strong> (pron. “agt”) - Ocho</li>
-                                <li><strong>Neun</strong> (pron. “noin”) - Nueve</li>
-                                <li><strong>Zehn</strong> (pron. “tsen”) - Diez</li>
-                            </ul>
-                        </div>
-                        <div class="row block">
-                            <h5>Varios</h5>
-                            <ul>
-                                <li><strong>Wasser</strong> (pron. “vásar”) - Agua</li>
+                                <li><strong>Prost!</strong> (pron. “prost”) - Salud (a la hora de brindar)</li>
                                 <li><strong>Toiletten</strong> (pron. “toiléten”) - Servicios / WC</li>
-                                <li><strong>Damen</strong> (pron. “dámen”) - Señoras / Damas</li>
-                                <li><strong>Herren</strong> (pron. “jérren”) - Señores / Caballeros</li>
                                 <li><strong>Apotheke</strong> (pron. “apoteque) - Farmacia</li>
-                                <li><strong>Groß</strong> (pron. “gros”) - Grande</li>
-                                <li><strong>Klein</strong> (pron. “cláin”) - Pequeño</li>
-                                <li><strong>Kalt</strong> (pron. “calt”) - Frío</li>
-                                <li><strong>Warm</strong> (pron. “varm”) - Caliente</li>
                             </ul>
                         </div>
                     </div>
@@ -766,7 +712,12 @@
                         </div>
                         <div class="row block">
                             <h5>Viajar en tren</h5>
-                            <ul>
+                            <p class="paragraph">La "Deutsche Bahn" o "DB" es la empresa encargada del transporte
+                                ferroviario en <strong>Alemania</strong>. En su <a href="https://www.bahn.de/">web</a>
+                                podéis buscar
+                                trayectos, horarios y precios; y además de los billetes sueltos, hay dos tipos de
+                                billetes que os puede interesar:</p>
+                            <ul class="ml-30">
                                 <li><strong>Deutschland Ticket:</strong> Actualmente (agosto de 2024) existe un ticket
                                     que te permite viajar por toda Alemania y usar casi toda su red de trenes y buses
                                     por 49€ al mes. Este ticket es como una subscripción que vas pagando todos los meses
@@ -774,71 +725,61 @@
                                     Si os interesa, podéis avisarme y os ayudo en la compra del ticket, que se puede
                                     comprar en el siguiente enlace <a
                                         href="https://www.d-ticket.info/default-en">D-Ticket</a> o a
-                                    través de Mopla.
+                                    través de la web de Mopla.
                                 </li>
                                 <li><strong>Bayernticket:</strong> Este billete os puede interesar a aquellos que
-                                    penséis viajar mucho o vengáis en grupo,
-                                    porque os permite usar durante un día casi todo tipo de transporte público en Bayern
-                                    por 29€ una persona
-                                    + 10€ por acompañante (hasta 5 personas). Es decir, si sois 5 personas, viajáis por
-                                    69€ los 5 durante
-                                    todo el día (precios de agosto de 2024)
-                                    Con este billete podéis coger trenes, buses, metro, tranvía… aunque tiene sus
+                                    vengáis en grupo o penséis viajar mucho durante todo un día,
+                                    porque os permite usar casi todo tipo de transporte público en Bayern durante un día
+                                    por 29€ una persona más 10€ por acompañante (hasta 5 personas). Es decir, si sois 5
+                                    personas, viajáis los 5 durante todo el día por 69€ (precios de agosto de 2024).
+                                    Con este billete podéis coger trenes (excepto los rápidos tipo IC/ICE), buses,
+                                    metro, tranvía… aunque tiene sus
                                     limitaciones, como que entre semana es válido a partir de las 9 de la mañana (fines
-                                    de semana todo el día)
-                                    o que los trenes rápidos tipo IC no se pueden usar con él. Podéis encontrar más
-                                    información en el siguiente enlace:
+                                    de semana todo el día). Podéis encontrar más información en el siguiente enlace:
                                     <a
                                         href="https://int.bahn.de/es/ofertas/regional/billete-regional-para-baviera">Bayernticket</a>.
                                     Los billetes se pueden sacar online, por la aplicación de la DB (Deutsche Bahn) o
                                     directamente en las máquinas de las estaciones.
                                 </li>
-                                <li><strong>Otros tickets en Alemania:</strong> Podéis encontrar otros tipos de tickets
-                                    y opciones en la web de la
-                                    <a href="https://www.bahn.de/">Deutsche Bahn</a>
-                                </li>
-                                <li><strong>Austria:</strong> Si vais a estar por Austria, podéis comprar los billetes
-                                    de tren en la web de trenes
-                                    austríaca <a href="https://www.oebb.at/en/">ÖBB</a>. Si vais a coger un tren que
-                                    empiece o acabe en Alemania, comparad los precios en ambas webs, que la ÖBB suele
-                                    tener precios más baratos que la DB a pesar de ser el mismo tren y trayecto.
-                                </li>
                             </ul>
+                            <p class="paragraph">Si vais a viajar por <strong>Austria</strong>, podéis comprar los
+                                billetes de tren en la web de trenes
+                                austríaca o <a href="https://www.oebb.at/en/">ÖBB</a>. Si vais a coger un tren que
+                                empiece o acabe en Alemania, comparad los precios en ambas webs, que la ÖBB suele
+                                tener precios más baratos que la DB a pesar de ser el mismo tren y trayecto.
+                            </p>
                         </div>
                         <div class="row block">
                             <h5>Viajar en coche</h5>
-                            <p class="paragraph">En Alemania no existe límite de velocidad en la Autobahn (autovías) a
-                                no ser que una
-                                señal indique lo contrario. En el momento que veáis la señal de “Fin de prohibiciones”,
-                                podéis pisarle todo lo que queráis al coche, aunque siempre con precaución 😉
-                                Sin embargo, el límite de velocidad en Austria es de 130km/h!!</p>
-                            <p class="paragraph">En Austria no se puede circular por sus autovías sin una pegatina o
-                                “Vignette” (ya sea
-                                física pegada al parabrisas o digital en el móvil) cuyo precio varía en función de los
-                                días y el tipo de vehículo.
+                            <p class="paragraph">En <strong>Alemania</strong> no existe límite de velocidad en la
+                                Autobahn (autovías) a no ser que una señal indique lo contrario. En el momento que veáis
+                                la señal de “Fin de prohibiciones”,
+                                podéis pisarle todo lo que queráis al coche, aunque siempre con precaución 😉 </p>
+                            <p class="paragraph">Sin embargo, en <strong>Austria</strong> el límite de velocidad es de
+                                130km/h y no se puede circular por sus autovías sin una pegatina o
+                                <strong>“Vignette”</strong> (ya sea física pegada al parabrisas o digital en el móvil)
                                 Esta pegatina es como un tipo de impuesto que pagas por usar las autovías austríacas y
-                                se puede
-                                online <a href="https://www.asfinag.at/en/toll/vignette/">aquí</a> o en gasolineras
-                                austriacas o cerca de la frontera. Si
-                                no la compráis, os pillará la cámara al entrar en la autovía y tendréis multa asegurada!
+                                se puede comprar online <a href="https://www.asfinag.at/en/toll/vignette/">aquí</a>, en
+                                gasolineras austriacas o cerca de la frontera austriacas. ¡Si
+                                no la llevais, os pillará la cámara al entrar en la autovía y tendréis multa asegurada!
                             </p>
-                            <p class="paragraph">La gasolina y el diésel en Alemania tiene un precio más elevado que en
-                                España, pero en
-                                Austria no
-                                tanto. Actualmente (agosto de 2024) el Super 95 está a 1,82€ el litro en Alemania y a
-                                1,54€/l en Austria.
-                                Aprovechad siempre a llenar el tanque si estáis en Austria o cerca de la frontera 😉</p>
+                            <p class="paragraph"><strong>Repostar en Austria es siempre más barato que en Alemania
+                                </strong> y es algo importante a tener en cuenta si estás en Austria o cerca
+                                de la frontera.
+                                Por ejemplo, actualmente (agosto de 2024) el litro de Super 95 está a 1,82€ en Alemania
+                                y a 1,54€ en Austria.</p>
                         </div>
                         <div class="row block">
                             <h5>Viajar en bus</h5>
-                            <p class="paragraph">Para viajes en bus, podéis echar un vistazo a la web de Flixbus</p>
+                            <p class="paragraph">Para viajes en bus, podéis echar un vistazo a la web de <a
+                                    href="https://www.flixbus.de/">Flixbus</a>.</p>
                         </div>
                         <div class="row block">
                             <h5>Viajar en bicicleta</h5>
                             <p class="paragraph">Para aquellos más aventureros, Alemania dispone una red muy grande de
-                                carriles bici que
-                                os permiten
-                                cruzar el país entero en varias direcciones. La ruta número 6 circula junto al Danubio y
+                                carriles bici que os permiten
+                                cruzar el país entero en varias direcciones. La ruta europea número 6 circula junto al
+                                Danubio y
                                 pasa por la ciudad de Passau entre otras.</p>
                         </div>
                     </div>
@@ -848,57 +789,52 @@
                         <div class="section-subtitle mt-30">
                             <span id="eatdrink" class="highlights">Comidas y bebidas típicas</span>
                         </div>
-                        <p class="paragraph">Alemania no es sólo salchichas y cerveza, aunque haya cientos de tipos de
-                            cada una. Aquí os
-                            dejo
-                            algunos platos típicos que tenéis que probar durante vuestra visita:</p>
+                        <p class="paragraph">Alemania no es sólo salchichas y cerveza (aunque haya cientos de tipos de
+                            ellas), de modo que aquí os dejamos algunos platos típicos que tenéis que probar durante
+                            vuestra visita:</p>
                         <div class="row block">
                             <h5>Comidas</h5>
-                            <ul>
-                                <li><strong>Schweinebraten</strong> (pron. “sh-baine-braten”): Trozo de cerdo asado a
-                                    menudo
-                                    acompañado de una salsa y Knödel, que son unas bolas de masa de patata y/o pan.</li>
+                            <ul class="ml-30">
+                                <li><strong>Schweinebraten</strong> (pron. “sh-baine-braten”): Trozo de cerdo asado en
+                                    salsa
+                                    acompañado de Knödel, que son unas bolas de masa de patata o pan.</li>
                                 <li><strong>Hax'n</strong> (pron. “Jaksen”): Codillo</li>
                                 <li><strong>Schnitzel</strong> (pron. “sh-nitcel”): Filete empanado estilo milanesa que
-                                    puede ser de cerdo (Schwein), pavo (Puten) o ternero (Kalb).</li>
-                                <li><strong>Spätzle</strong> (pron. “sh-petsle”): tipo de pasta echa con harina y huevo
-                                    que
-                                    suele servirse como guarnición de algún plato</li>
+                                    puede ser de cerdo (Schwein), pavo (Puten) o ternera (Kalb).</li>
+                                <li><strong>Spätzle</strong> (pron. “sh-petsle”): Tipo de pasta echa con harina y huevo
+                                    que suele servirse como guarnición de algún plato</li>
                                 <li><strong>Käsespätzle</strong> (pron. “quese sh-petsle”): Spätzle con queso fundido y
                                     decorado con cebolla frita y perejil</li>
-                                <li><strong>Leberkäse</strong> (pron. “leba-quese”): Masa de carne del mismo tipo que la
-                                    salchicha, pero hecha en un recipiente al horno. Se puede comer en plato o de forma
-                                    de
-                                    bocadillo: Leberkäse-Semmel</li>
+                                <li><strong>Leberkäse</strong> (pron. “leba-quese”): Masa de carne del mismo tipo que
+                                    una salchicha, pero hecha en un recipiente al horno. Se puede comer en plato o de
+                                    forma de bocadillo: Leberkäse-Semmel</li>
                                 <li><strong>Obazda</strong> (pron. “o-bazda”): Mezcla de quesos frescos con un toque de
                                     pimentón para untar en pan.</li>
+                                <li><strong>Weißwurst</strong>(pron. “váis-vursht”): Salchichas blancas cocidas, típicas
+                                    para el desayuno acompañadas de un Bretzel y una Weißbier o cerveza de trigo.</li>
                             </ul>
                         </div>
                         <div class="row block">
                             <h5>Bebidas</h5>
-                            <ul>
+                            <ul class="ml-30">
                                 <li><strong>Helles</strong> (pron. “jéles”): Cerveza clara típica de Bayern servida en
-                                    una
-                                    jarra de medio litro a no ser que se especifique algo más pequeño.</li>
+                                    una jarra de medio litro a no ser que se especifique algo más pequeño.</li>
                                 <li><strong>Maß</strong> (pron. “más”): Cerveza clara típica de Bayern servida en una
-                                    jarra
-                                    de un litro.</li>
+                                    jarra de un litro.</li>
                                 <li><strong>Weißbier</strong> (pron. “váis-biar”): Cerveza de trigo servida en un vaso
-                                    de
-                                    medio litro.</li>
+                                    de medio litro.</li>
                                 <li><strong>Pils</strong> (pron. “pils”): Cerveza tipo Pilsener como las españolas
-                                    Alhambra,
-                                    Cruzcampo o Estrella Galicia.</li>
+                                    Alhambra, Cruzcampo o Estrella Galicia.</li>
                                 <li><strong>Radler</strong> (pron. “rádlar”): Cerveza mezclada con refresco de limón.
                                 </li>
                                 <li><strong>Bier</strong> (pron. “bíar”): Cerveza sin especificar. Te pondrán una Helles
                                     seguramente.</li>
                                 <li><strong>Weinschörle</strong> (pron. “váin-chorle”): Vino mezclado con agua con gas
-                                    para
-                                    hacerlo más suave, espumoso y con menos alcohol.</li>
+                                    para hacerlo más suave, espumoso y con menos alcohol.</li>
                                 <li><strong>Saft</strong> (pron. “saft”): Zumo que puede ser “Pur” (sin mezclar) o tipo
-                                    “Schörle” (mezclado con agua con gas para hacerlo tipo refresco)
-                                    o Spetzi (pron. “sh-petsi”): Refresco de cola con sabor a naranja</li>
+                                    “Schörle” (mezclado con agua con gas para hacerlo tipo refresco)</li>
+                                <li><strong>Spetzi</strong> (pron. “sh-petsi”): Refresco de cola con sabor a naranja
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -910,63 +846,57 @@
                         </div>
                         <div class="row block">
                             <h5>Sitios de interés</h5>
-                            <ul>
-                                <li><strong>Stephansdom:</strong> La catedral de San Esteban en Passau, que fue
-                                    reconstruida
-                                    por
-                                    arquitectos italianos en 1668 tras un incendio del que sólo se pudo conservar una
-                                    pequeña
-                                    parte gótica. Contiene el órgano de catedral más grande del mundo. </li>
+                            <ul class="ml-30">
+                                <li><strong>Stephansdom:</strong> La catedral de San Esteban en Passau. Reconstruida
+                                    por arquitectos italianos en 1668 tras un incendio del que sólo se pudo conservar
+                                    una
+                                    pequeña parte gótica. Contiene el órgano de catedral más grande del mundo. </li>
                                 <li><strong>Veste Oberhaus:</strong> Fortaleza del siglo XIII que contiene un museo con
-                                    historia
-                                    de la ciudad. Se puede
+                                    historia de la ciudad. Se puede
                                     subir de forma gratuita hasta una terraza de la que se ve toda la ciudad.</li>
                                 <li><strong>Ludwigstraße:</strong> Calle peatonal principal de la ciudad con comercios y
-                                    restaurantes</li>
-                                <li><strong>Innpromenade:</strong> Paseo muy bonito junto al río Inn</li>
-                                <li><strong>Stadtgalerie:</strong> Centro comercial con tiendas y restauración</li>
+                                    restaurantes.</li>
+                                <li><strong>Innpromenade:</strong> Paseo muy bonito junto al río Inn.</li>
+                                <li><strong>Stadtgalerie:</strong> Centro comercial con tiendas y restauración.</li>
                             </ul>
                         </div>
                         <div class="row block">
                             <h5>Restaurantes</h5>
-                            <ul>
-                                <li><strong>Hacklberg Bräustüberl:</strong> Una de las cervecerías de la ciudad que
-                                    tiene un
+                            <ul class="ml-30">
+                                <li><strong>Hacklberg Bräustüberl:</strong> Una de las cervecerías de la ciudad con
                                     restaurante y un Biergarten propio dónde sirven comida tradicional bávara.
-                                    <a href="https://www.hacklberger-braeustueberl.de/">Web</a>
+                                    <a href="https://maps.app.goo.gl/UqihZLx1enWKaNBV8">Ubicación</a>
                                 </li>
                                 <li><strong>Altes Bräuhaus:</strong> Restaurante tradicional bávaro con buenos precios y
-                                    comida
-                                    de calidad.
-                                    <a href="http://www.altes-braeuhaus.de/">Web</a>
+                                    comida de calidad.
+                                    <a href="https://maps.app.goo.gl/o1URa8gex34F5jhL8">Ubicación</a>
                                 </li>
                                 <li><strong>Zweite Heimat:</strong> Hamburguesas hechas con ingredientes regionales. Las
                                     mejores
                                     hamburguesas de todo Passau según nosotros 😊 es algo pequeño y conviene reservar.
-                                    <a href="https://www.zweiteheimatpassau.de/">Web</a>
+                                    <a href="https://maps.app.goo.gl/FKXU3FWQzAXpTCrL7">Ubicación</a>
                                 </li>
                                 <li><strong>PADU:</strong> Las mejores pizzas de la ciudad según nosotros. Tienen dos
-                                    locales en la ciudad. Uno en el centro y otro cerca de la universidad.
-                                    <a href="https://maps.app.goo.gl/EtvtCm25ZDvPJXdL7">Aquí podéis encontrar el del
-                                        centro</a>
+                                    locales en la ciudad: uno en el centro y otro cerca de la universidad.
+                                    <a href="https://maps.app.goo.gl/EtvtCm25ZDvPJXdL7">Ubicación</a>
                                 </li>
                                 <li><strong>Café Kowalski:</strong> Cafetería/Restaurante con una carta variada.
-                                    <a href="http://www.cafe-kowalski.de/">Web</a>
+                                    <a href="https://maps.app.goo.gl/sSw6WRYMfsU3g9QJA">Ubicación</a>
                                 </li>
                                 <li><strong>Chandni:</strong> Restaurante indio, el mejor que hemos probado. Es pequeño
                                     y siempre está lleno, conviene reservar.
-                                    <a href="http://www.chandni-online.de/">Web</a>
+                                    <a href="hhttps://maps.app.goo.gl/ARQRgTjM5Do4wnYA8">Ubicación</a>
                                 </li>
                                 <li><strong>Birreria Veinti Tre:</strong> Restaurante italiano con muy buena comida.
-                                    <a href="http://venti-tre.de/">Web</a>
+                                    <a href="https://maps.app.goo.gl/CgJdvdjLz4NYAXLz5">Ubicación</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="row block">
                             <h5>Cafeterías / Heladerías</h5>
-                            <ul>
+                            <ul class="ml-30">
                                 <li><strong>Amsl:</strong> Cafetería en una antigua villa con buenos desayunos y tartas.
-                                    <a href="https://www.amsl-villabergeat.de/">Web</a>
+                                    <a href="https://maps.app.goo.gl/Vdw3e7vDzunJozTY9">Ubicación</a>
                                 </li>
                                 <li><strong>Café Greindl:</strong> Cafetería con las mejores tartas de la ciudad.
                                     <a href="https://maps.app.goo.gl/mJoij3Rx8qDcRsGQ9">Ubicación</a>
@@ -983,7 +913,9 @@
                                     con buenos desayunos.
                                     <a href="https://maps.app.goo.gl/etgmUkdZqwYn6g1Q7">Ubicación</a>
                                 </li>
-                                <li><strong>Café Simon:</strong></li>
+                                <li><strong>Café Simon:</strong> Cafetería conocida por sus chocolates.
+                                    <a href="https://maps.app.goo.gl/P4zRzrhZNXspt9x29">Ubicación</a>
+                                </li>
                                 <li><strong>Eiscafe Fontanella:</strong> Heladería con los mejores helados de la ciudad
                                     según nosotros.
                                     <a href="https://maps.app.goo.gl/9FiprehH21RTTxvVA">Ubicación</a>
