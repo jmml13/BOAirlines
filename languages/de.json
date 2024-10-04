@@ -11,5 +11,14 @@
     "menu_4_4": "Essen und Trinken",
     "menu_4_5": "Passau",
     "hero_title": "Begleiten Sie Bretzel und Oliva auf seine Reise nach Passau",
-    "hero_text": "Auf dieser Website finden Sie Informationen und Tipps zur Anreise und Übernachtungsmöglichkeiten in Passau."
+    "hero_text": "Auf dieser Website finden Sie Informationen und Tipps zur Anreise und Übernachtungsmöglichkeiten in Passau.",
+    "nav1_tab": "Flüge",
+    "nav1_title": "Reisen Sie mit uns",
+    "nav1_labelfrom": "Von",
+    "nav1_labelto": "Bis",
+    "nav1_button": "Suchen",
+    "nav2_tab": "Hotels",
+    "nav2_text": "Sie können ganz einfach Übernachtungsmöglichkeiten in Seiten wie <a href=\"https://www.booking.com/index.es.html\">Booking</a> oder <a href=\"https://www.airbnb.es\">Airbnb</a>. Aber wenn Sie eine Empfehlung suchen, drücken Sie auf den Knopf",
+    "nav2_button": "Empfehlungen suchen",
+    "nav3_tab": "Parking"
 }
