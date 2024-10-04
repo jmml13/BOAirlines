@@ -4,20 +4,14 @@
 
     @version         : 1.0
     @Template Name   : C&J
-    @Template author : C&J
+    @Template author : C&J and Traveloo
 
 
     :: Variables                
     :: Template default css    
-    :: Buttons
-    :: About
-    :: Header 01                
+    :: Buttons               
     :: Header 03
-    :: Hero 03                  
-    :: About                    :: Feature Card
-    :: Destinations Card        :: Explore Card
-    :: Brand
-    :: Plan Card     
+    :: Hero 03                    
     :: Footer                  
 
 ------------------------------------------------
@@ -14927,6 +14921,14 @@ input[type=number] {
   .plan-area-three {
     margin-top: -30px;
   }
+
+  .plan-section-three {
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 10px 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .choose-plan-nav .nav-tabs {
@@ -14953,6 +14955,13 @@ input[type=number] {
   background-color: transparent;
   padding-bottom: 12px;
   margin-right: 20px;
+}
+
+@media (max-width: 991px) {
+  .choose-plan-nav .plan-link {
+    gap: 5px;
+    margin-right: 10px;
+  }
 }
 
 .choose-plan-nav .plan-link i {
@@ -15018,6 +15027,14 @@ input[type=number] {
   color: var(--primary-paragraph);
   line-height: 1.6;
 }
+
+/*
+@media (max-width: 991px) {
+  .text-area .paragraph {
+    font-size: 14px;
+  }
+}
+*/
 
 .text-area .block {
   padding: 8px 30px 8px 30px;
