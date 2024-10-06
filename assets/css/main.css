@@ -2420,29 +2420,6 @@ input[type=number] {
   }
 }
 
-.header-area .top-menu-wrapper .top-header-left {
-  gap: 120px;
-}
-
-@media (max-width: 1599px) {
-  .header-area .top-menu-wrapper .top-header-left {
-    gap: 30px;
-  }
-}
-
-.header-area .top-menu-wrapper .top-header-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 38px;
-}
-
-@media (max-width: 991px) {
-  .header-area .top-menu-wrapper .top-header-right {
-    display: none;
-  }
-}
-
 .header-area .main-menu .listing .single-list {
   display: inline-block;
   position: relative;
@@ -2795,7 +2772,7 @@ input[type=number] {
 
 @media (max-width: 991px) {
   .footer-wrapper .footer-area .paragraph {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
@@ -2991,7 +2968,7 @@ input[type=number] {
 @media (max-width: 991px) {
   .choose-plan-nav .plan-link {
     gap: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
