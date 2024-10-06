@@ -2177,6 +2177,7 @@ object {
 }
 
 .section-padding2 {
+  margin-top: 70px;
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -2849,6 +2850,7 @@ input[type=number] {
 }
 
 .hero-padding-for-three {
+  margin-top: 70px;
   padding: 150px 0px 214px 0px;
 }
 
