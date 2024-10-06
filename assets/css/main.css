@@ -3070,7 +3070,7 @@ input[type=number] {
 
 @media (max-width: 991px) {
   .text-area .block {
-    padding: 8px 30px 8px 30px;
+    padding: 5px 30px 5px 30px;
     margin-top: 15px;
     margin-bottom: 5px;
   }
