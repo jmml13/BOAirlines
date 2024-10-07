@@ -2142,12 +2142,12 @@ object {
 
 @media (max-width: 991px) {
   .header-title {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
 .header-subtitle {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--primary-color);
 }
@@ -2752,12 +2752,12 @@ input[type=number] {
 }
 
 .footer-wrapper .footer-area {
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 
 @media (max-width: 991px) {
   .footer-wrapper .footer-area {
-    padding: 20px 0;
+    padding: 15px 0;
   }
 }
 
