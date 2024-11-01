@@ -2773,6 +2773,20 @@ input[type=number] {
   }
 }
 
+.footer-wrapper .footer-area .paragraph a {
+  color: var(--tertiary-title);
+  font-weight: 600;
+  font-size: 16px;
+}
+@media (max-width: 991px) {
+  .footer-wrapper .footer-area .paragraph a {
+    font-size: 10px;
+  }
+}
+.footer-wrapper .footer-area .paragraph a:hover {
+  color: var(--white);
+}
+
 .input-wraper {
   position: relative;
   padding: 0px 0px 16px 0px;
