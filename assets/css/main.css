@@ -3113,7 +3113,7 @@ input[type=number] {
 }
 
 @media (max-width: 1152px) {
-
+  
   .gallery a img {
     height: 20rem;
   }
@@ -3154,6 +3154,15 @@ input[type=number] {
 }
 
 @media (max-width: 480px) {
+
+  .gallery {
+    margin: -0.625rem 0 0 -0.625rem;
+    width: calc(100% + 0.625rem);
+  }
+
+  .gallery a {
+    margin: 0.625rem 0 0 0.625rem;
+  }
 
   .gallery a img {
     height: 12rem;
