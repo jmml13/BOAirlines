@@ -3137,7 +3137,6 @@ input[type=number] {
 
   .gallery a {
     margin: 0.625rem 0 0 0.625rem;
-    width: calc(50% - 0.625rem);
   }
 
   .gallery a img {
